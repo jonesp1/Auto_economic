@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\projects\\Auto_economic\\apps\\OfferProvider\\OfferProvider.csproj": {}
+    "/mnt/c/Dev/projects/Auto_economic/apps/OfferProvider/OfferProvider.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\projects\\Auto_economic\\apps\\OfferProvider\\OfferProvider.csproj": {
+    "/mnt/c/Dev/projects/Auto_economic/apps/OfferProvider/OfferProvider.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\projects\\Auto_economic\\apps\\OfferProvider\\OfferProvider.csproj",
+        "projectUniqueName": "/mnt/c/Dev/projects/Auto_economic/apps/OfferProvider/OfferProvider.csproj",
         "projectName": "OfferProvider",
-        "projectPath": "C:\\Dev\\projects\\Auto_economic\\apps\\OfferProvider\\OfferProvider.csproj",
-        "packagesPath": "C:\\Users\\dkJonPou\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\projects\\Auto_economic\\apps\\OfferProvider\\obj\\",
+        "projectPath": "/mnt/c/Dev/projects/Auto_economic/apps/OfferProvider/OfferProvider.csproj",
+        "packagesPath": "/home/wsl/.nuget/packages/",
+        "outputPath": "/mnt/c/Dev/projects/Auto_economic/apps/OfferProvider/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dkJonPou\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/wsl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -43,8 +43,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -53,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.120/RuntimeIdentifierGraph.json"
         }
       }
     }
