@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "GaLIZw/UWReaIjM4jv5U+OA9x408MuYEEhUySc1a4J0PMkivgVBvdeRndX+lXJahuJAXMD/8V9yB+ceyh9g4gg==",
+  "dgSpecHash": "WISt7NS0JVKpJahOUnn5iov/K81KT5tHNXXcjMDh52fZG1oFiU8pOkSz5GMV1/az588aCaPQIKabsVFwTyBtWA==",
   "success": true,
   "projectFilePath": "/mnt/c/Dev/projects/Auto_economic/apps/OfferProvider/OfferProvider.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/wsl/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
+    "/home/wsl/.nuget/packages/microsoft.playwright/1.36.0/microsoft.playwright.1.36.0.nupkg.sha512",
+    "/home/wsl/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "/home/wsl/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/home/wsl/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
+    "/home/wsl/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

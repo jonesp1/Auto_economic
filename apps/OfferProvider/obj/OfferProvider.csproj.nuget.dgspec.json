@@ -37,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Playwright": {
+              "target": "Package",
+              "version": "[1.36.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

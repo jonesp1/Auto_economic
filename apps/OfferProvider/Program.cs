@@ -1,5 +1,6 @@
-﻿public class OfferProvider {
-protected string? offerText;
+﻿public class OfferProvider
+{
+    protected string? offerText;
 
     public virtual void DisplayOffer()
     {
@@ -7,15 +8,18 @@ protected string? offerText;
     }
 }
 
-public class CalculatorOfferProvider : OfferProvider {
+public class CalculatorOfferProvider : OfferProvider
+{
 
-    public CalculatorOfferProvider(string calculatorContent) {
+    public CalculatorOfferProvider(string calculatorContent)
+    {
         offerText = calculatorContent;
     }
 
-    public double CalculateHouseLoan(double loanAmount, double interestRate, int loanTermInMonths) {
+    public double CalculateHouseLoan(double loanAmount, double interestRate, int loanTermInMonths)
+    {
         double monthlyInterestRate = interestRate / 12 / 100;
-        
+
 
         double monthlyPayment = loanAmount * (monthlyInterestRate * Math.Pow(1 + monthlyInterestRate, loanTermInMonths)) /
                                 (Math.Pow(1 + monthlyInterestRate, loanTermInMonths) - 1);
@@ -26,17 +30,14 @@ public class CalculatorOfferProvider : OfferProvider {
 
 class Program
 {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
-    
-        var calculatorOffer = new CalculatorOfferProvider("Calculate your house loan monthly payment!");
 
-        double loanAmount = 2350000; 
-        double interestRate = 3; 
-        int loanTermInMonths = 360;
 
-        double monthlyPayment = calculatorOffer.CalculateHouseLoan(loanAmount, interestRate, loanTermInMonths);
-        Console.WriteLine($"Månedlig ydelse: {monthlyPayment:C}");
+
+        await Demo.Foo();
+
+
     }
 }
 
